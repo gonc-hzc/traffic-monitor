@@ -1,0 +1,18 @@
+[
+  {
+    "id": "local-ssh",
+    "name": "本机 SSH",
+    "host": "127.0.0.1",
+    "port": 22,
+    "protocol": "ssh",
+    "enabled": true
+  },
+  {
+    "id": "example-server",
+    "name": "示例服务器",
+    "host": "example.com",
+    "port": 443,
+    "protocol": "https",
+    "enabled": false
+  }
+]

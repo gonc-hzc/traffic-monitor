@@ -1,0 +1,10 @@
+{
+  "highDownloadBps": 8388608,
+  "highUploadBps": 4194304,
+  "watchedPorts": [22],
+  "watchedHosts": [],
+  "blockedHosts": [],
+  "sampleHistoryEveryMs": 60000,
+  "allowPublicIpLookup": false,
+  "publicIpRefreshIntervalMs": 300000
+}

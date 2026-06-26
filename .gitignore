@@ -1,0 +1,16 @@
+node_modules/
+frontend/node_modules/
+
+build/
+dist/
+frontend/dist/
+output/
+.playwright-cli/
+
+data/*.log
+data/*.jsonl
+*.log
+
+*.dmg
+*.app
+.DS_Store

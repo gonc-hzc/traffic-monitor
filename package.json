@@ -1,0 +1,24 @@
+{
+  "name": "traffic-monitor-dashboard",
+  "version": "0.2.0",
+  "private": true,
+  "description": "React + C++ local real-time traffic monitoring dashboard for macOS/Linux.",
+  "scripts": {
+    "install:frontend": "npm --prefix frontend install",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "cmake -S backend -B build/backend && cmake --build build/backend --config Release",
+    "build": "bash scripts/build_all.sh",
+    "start": "./build/backend/traffic-monitor --public-dir frontend/dist --config-dir config --data-dir data",
+    "package:dmg": "bash scripts/package_dmg.sh"
+  },
+  "keywords": [
+    "traffic",
+    "monitor",
+    "ssh",
+    "dashboard",
+    "react",
+    "cpp"
+  ],
+  "author": "",
+  "license": "MIT"
+}
